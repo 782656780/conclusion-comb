@@ -1,0 +1,20 @@
+.sidebar {
+  height: 100%;
+  .sidebar-left {
+    width: 200px;
+    background: #23bbca;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .sidebar-left-img {
+      height: 64px;
+      width: 64px;
+      background: #fff;
+    }
+    .sidebar-left-title {
+      padding-left: 8px;
+      color: #a6b6c6;
+      font-size: 24px;
+    }
+  }
+}

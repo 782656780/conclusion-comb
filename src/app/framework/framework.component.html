@@ -1,0 +1,17 @@
+<!-- 主界面 -->
+<nz-layout>
+  <!-- 头部 -->
+  <nz-header>
+    <app-sidebar></app-sidebar>
+  </nz-header>
+  <nz-layout>
+    <!-- 侧边栏 -->
+    <nz-sider>
+      <app-topbar></app-topbar>
+    </nz-sider>
+    <!-- 内容区域 -->
+    <nz-content>
+      <router-outlet></router-outlet>
+    </nz-content>
+  </nz-layout>
+</nz-layout>
